@@ -46,6 +46,9 @@ The algorithm is visualized using async recursion and controlled delays.
 ---
 
 ## 📁 Project Structure
+
+
+```bash
 SUDOKU-SOLVER
  ├── assets
  │    ├── logo.PNG
