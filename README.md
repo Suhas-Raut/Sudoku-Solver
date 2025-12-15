@@ -9,13 +9,13 @@ Built using **vanilla HTML, CSS, and JavaScript**, this project visualizes the *
 
 ### Snapshots -
 - User Interface
- <img align="center" src="https://github.com/Suhas-Raut/Sudoku-Solver/blob/main/assets/logo.PNG" alt="UI1" >
+ <img align="center" src="https://github.com/Suhas-Raut/Sudoku-Solver/blob/main/assets/SS1.png" alt="UI1" >
 
 - Animation while Solving
-- <img align="center" src="https://github.com/Suhas-Raut/Sudoku-Solver/blob/main/assets/logo.PNG" alt="UI2" >
+- <img align="center" src="https://github.com/Suhas-Raut/Sudoku-Solver/blob/main/assets/SS2.png" alt="UI2" >
 
 - Solved Sudoku Visualization
-- <img align="center" src="https://github.com/Suhas-Raut/Sudoku-Solver/blob/main/assets/logo.PNG" alt="UI3" >
+- <img align="center" src="https://github.com/Suhas-Raut/Sudoku-Solver/blob/main/assets/SS3.png" alt="UI3" >
 
 
 - 🎲 **Random Puzzle Generator**
