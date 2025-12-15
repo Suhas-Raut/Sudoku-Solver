@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(9, 45px);
+  grid-template-rows: repeat(9, 45px);
+  gap: 2px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 45px;      /* KEY FIX */
+
+  background-color: #1e293b;
+  color: #f8fafc;
+  caret-color: #38bdf8;
+
+  border: 1px solid #334155;
+  outline: none;
+  padding: 0;             /* REMOVE browser padding */
+}
+
+
+
+input:nth-child(3n) {
+  border-right: 2px solid #38bdf8;
+}
+
+input:nth-child(n+19):nth-child(-n+27),
+input:nth-child(n+46):nth-child(-n+54),
+input:nth-child(n+73):nth-child(-n+81) {
+  border-bottom: 2px solid #38bdf8;
+}
+input:nth-child(n+1):nth-child(-n+9){
+border-top: 2px solid #38bdf8;
+}
+input:nth-child(n+1):nth-child(-n+73){
+border-left: 2px solid #38bdf8;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.solve {
+  background: #22c55e;
+  color: black;
+}
+
+.clear {
+  background: #ef4444;
+  color: white;
+}
+.new {
+  background: #38bdf8;
+  color: black;
+}
+.trying {
+  background: linear-gradient(
+    135deg,
+    #fde68a,
+    #facc15,
+    #eab308
+  ) !important;
+
+  color: #422006;
+  font-weight: bold;
+
+  box-shadow:
+    0 0 6px rgba(250, 204, 21, 0.6),
+    inset 0 0 4px rgba(255, 255, 255, 0.25);
+}
+
+
+
+.backtrack {
+  background-color: #ef4444 !important; /* red */
+  color: white;
+}
+
+.solved {
+  background: linear-gradient(
+    135deg,
+    #4ade80,
+    #22c55e,
+    #16a34a
+  ) !important;
+
+  color: #052e16;
+  font-weight: bold;
+
+  box-shadow:
+    0 0 8px rgba(34, 197, 94, 0.6),
+    inset 0 0 6px rgba(255, 255, 255, 0.25);
+}
+
